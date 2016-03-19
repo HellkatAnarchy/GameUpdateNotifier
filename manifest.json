@@ -1,0 +1,30 @@
+{
+	//Manifest version
+	"manifest_version": 2,
+
+	//Extension info
+	"name": "Steam Game Update Notifier",
+	"description": "This extension checks for changes in Steam game version numbers and notifies you when they occur!",
+	"version": "1.0",
+	"background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+	
+	//For the physical extension button inside chrome
+	"browser_action": 
+	{
+		"default_icon": "icon.png", //The icon used for the button
+		"default_popup": "popup.html", //The HTML that appears when a user presses the button
+		"default_title": "Steam Game Update Notifier"
+	},
+  
+	"permissions": [
+		"alarms",
+		"notifications",
+		"storage",
+		"http://api.steampowered.com/",
+		"background"
+	]
+}

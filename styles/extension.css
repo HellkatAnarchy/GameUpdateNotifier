@@ -1,0 +1,14 @@
+body
+{
+	float: left;
+	width: 400px;
+	max-width: 1000px
+	padding-left: 10px;
+	margin-right: 10px;
+	font-size: 80
+	font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+	max-width: 100%;
+}
+
+
+

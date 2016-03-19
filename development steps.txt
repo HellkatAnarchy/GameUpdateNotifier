@@ -1,0 +1,14 @@
+#Create a window into which we can add an appid and then get the version number from.
+#Get the current version of the appid from the JSON.
+#Save the appID to a file
+#Find out why we can't get the version number for many games.
+#Using http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=391220&count=3&maxlength=300&format=json
+#works much better. We'd have to go through the results and do "If feedname = "steam_community_announcements", 
+#and if the latest result like that isn't the last one (We'd store gid), then pop up a notification.
+#The downside of this is that many games just wont update thier news. Still, we will go ahead this way.
+#Add appid's to extension window.
+#Allow removal of appid's from storage.
+#Make the spacing nice on the apps displayed.(It's close)
+Have it run all the time.
+Add an error message for invalid XML requests (Currently just doesn't run.)
+Have game name of appid display.

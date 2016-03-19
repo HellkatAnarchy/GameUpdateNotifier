@@ -1,0 +1,30 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Steam game update notifier - Window</title>
+	
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width: 0px)" href="styles/extension.css"/>
+	<script src="popup.js"></script>
+	</head>
+  
+	<body>
+		<h1> Steam game update notifier </h1>
+		<p>
+			Add app:
+			<input maxlength="10" id="AppIDEntry" type="text" />
+			<button id="checkVersion">Submit</button>
+		</p>
+		<p>
+			Delete app:
+			<input maxlength="10" id="DeleteAppIDEntry" type="text" />
+			<button id="deleteApp">Delete</button>
+		</p>
+		<p id="apps">Hello World!</p>
+	</body>
+</html>
+
