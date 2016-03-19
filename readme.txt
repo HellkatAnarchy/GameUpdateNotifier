@@ -18,3 +18,4 @@ Additional features could include:
 
 You can add apps via appID's or select from games you own in your steam account.
 
+WARNING: This is very much still in development. Currently it has no icon and I'm not even sure it works. Please do not attempt to use this extension.
